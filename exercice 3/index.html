@@ -6,7 +6,12 @@
 </head>
 <body>
   <form>
-    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="" id="nom" />
+    <label for="nom">Votre nom  : </label><input type="text" onkeypress="champ()" name="nom" value="" id="nom" />
   </form>
+  <script>
+    function champ(){
+      alert ('Bonjour et bienvenue')
+    }
+  </script>
 </body>
 </html>
